@@ -1,10 +1,137 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Technical Documentation Page</title>
         <link rel="stylesheet" href="styles.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
     </head>
     <body>
-        
+        <nav id="navbar">
+            <header><h2>First Steps in HTML</h2></header>
+            <ul>
+                <li><a href="#Say_Hello_to_HTML_Elements" class="nav-link">Say Hello to HTML Elements</a></li>
+                <li><a href="#Headline_with_the_h2_Element" class="nav-link">Headline with the h2 Element</a></li>
+                <li><a href="#Inform_with_the_Paragraph_Element" class="nav-link">Inform with the Paragraph Element</a></li>
+                <li><a href="#Fill_in_the_Blank_with_Placeholder_Text" class="nav-link">Fill in the Blank with Placeholder Text</a></li>
+                <li><a href="#Comments_in_HTML" class="nav-link">Comments in HTML</a></li>
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="Say_Hello_to_HTML_Elements">
+                <header><h2>Say Hello to HTML Elements</h2></header>
+                <article>
+                    <p>
+                        Welcome to freeCodeCamp's HTML coding challenges. These will walk you through 
+                        web development step-by-step. First, you'll start by building a simple web page 
+                        using HTML. You can edit code in your code editor, which is embedded into this web 
+                        page. Do you see the code in your code editor that says <code>&lt;h1&gt;Hello&lt;/h1&gt;</code>? 
+                        That's an HTML element. Most HTML elements have an opening tag and a closing tag.                       
+                        Opening tags look like this:
+                    </p>
+                    <div class="codeBlock">
+                        <span style="color: #bd5ab8">
+                            <span style="color: gray"> < </span>
+                            h1
+                            <span style="color: gray"> > </span>
+                        </span>
+                    </div>
+                    <p>
+                        Closing tags look like this:
+                    </p>
+                    <div class="codeBlock">
+                        <span style="color: #bd5ab8">
+                            <span style="color: gray"> < </span>
+                            /h1
+                            <span style="color: gray"> > </span>
+                        </span>
+                    </div>
+                    <p>
+                        The only difference between opening and closing tags is the forward slash after
+                        the opening bracket of a closing tag.
+                    </p>
+                </article>
+            </section>
+            <section class="main-section" id="Headline_with_the_h2_Element">
+                <header><h2>Headline with the h2 Element</h2></header>
+                <article>
+                    <p>
+                        The h2 element level two heading to the web page. 
+                    </p>
+                    <div class="codeBlock">
+                        <span style="color: #bd5ab8">
+                            <span style="color: gray"> < </span>
+                            h2
+                            <span style="color: gray"> > </span>
+                        </span>
+                    </div>
+                    <p>
+                        This element tells the browser 
+                        about the structure of your website. h1 elements are often 
+                        used for main headings, while <span class="code-hl">h2</span> elements are generally used for 
+                        subheadings. There total tags are: 
+                    </p>
+                    <ul class="h-list">
+                        <li><code>&lt;h1&gt;&lt;/h1&gt;</code></li>
+                        <li><code>&lt;h2&gt;&lt;/h2&gt;</code></li>
+                        <li><code>&lt;h3&gt;&lt;/h3&gt;</code></li>
+                        <li><code>&lt;h4&gt;&lt;/h4&gt;</code></li>
+                        <li><code>&lt;h5&gt;&lt;/h5&gt;</code></li>
+                        <li><code>&lt;h6&gt;&lt;/h6&gt;</code></li>
+                    </ul>
+                </article>
+            </section>
+            <section class="main-section" id="Inform_with_the_Paragraph_Element">
+                <header><h2>Inform with the Paragraph Element</h2></header>
+                <article>
+                    <p>
+                        <span class="code-hl">p</span> elements are the preferred element for paragraph text on websites. 
+                        <span class="code-hl">p</span> is short for "paragraph".
+                    <p>
+                        You can create a paragraph element like this:
+                    </p>
+                        <div class="codeBlock">
+                            <span style="color: #bd5ab8">
+                                <span style="color: gray"> < </span>
+                                p
+                                <span style="color: gray"> > </span>
+                            </span>
+                            <span>I'm a p tag!</span>
+                            <span style="color: #bd5ab8">
+                                <span style="color: gray"> < </span>
+                                /p
+                                <span style="color: gray"> > </span>
+                            </span>
+                        </div>
+                    </p>
+                </article>
+            </section>
+            <section class="main-section" id="Fill_in_the_Blank_with_Placeholder_Text">
+                <header><h2>Fill in the Blank with Placeholder Text</h2></header>
+                <article>
+                    <p>
+                        Web developers traditionally use lorem ipsum text as placeholder text. 
+                        The lorem ipsum text is randomly scraped from a famous passage by Cicero of Ancient Rome.
+                        Lorem ipsum text has been used as placeholder text by typesetters since the 16th century, 
+                        and this tradition continues on the web.
+                    <p>
+                        A little bit of the paragraph is:
+                    </p>
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste temporibus eligendi assumenda 
+                        recusandae deleniti et rem dolorum porro aliquam iure ex ut repellendus.
+                    </p>
+                </article>
+            </section>
+            <section class="main-section" id="Comments_in_HTML">
+                <header><h2>Comments in HTML</h2></header>
+                <article>
+                    Commenting is a way that you can leave comments for other developers within your code without affecting the resulting output that is displayed to the end user.
+                    Commenting is also a convenient way to make code inactive without having to delete it entirely.
+                    Comments in HTML start with
+                    <code>&lt;!-- and end with a --&gt;</code> 
+                </article>
+            </section>
+        </main>
     </body>
 </html>
